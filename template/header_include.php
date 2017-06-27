@@ -10,13 +10,13 @@
                       <h4>Government of Nepal</h4>
                       <h5>Agriculture Development Ministry</h5>
                       <h4>Department of Agriculture</h4>
-                      <h3>District Agriculture Development Office, Bhaktapur</h3>
+                      <h3>Regional Agriculture Directorate, Dipayal</h3>
                   <?php }
                   else{?>
                       <h4>नेपाल सरकार</h4>
                       <h5>कृषि विकास मन्त्रालय</h5>
                       <h4>कृषि बिभाग</h4>
-                      <h3>जिल्ला कृषि बिकास कार्यालय, भक्तपुर</h3>
+                      <h3>क्षेत्रीय कृषि निर्देशनालय, दिपायल </h3>
                   <?php }?>
                   <!--<p>सिंहदरबार, काठमाडौँ, नेपाल</p>-->
               </div>
@@ -62,7 +62,7 @@
 
           <!-- scroll menu -->
           <section class="news panel  marquee-body">
-              <div class="" style="background-color:#c76353;"> 
+              <div class="" style="background-color:#6e9cdc;"> 
                   <div class="marquee_div">
                       <div class="marquee-title"><?php if($lan=='en') echo 'Hot News'; else echo 'ताजा समाचार'; echo ' : ';?></div>
                       <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();" truespeed="">

@@ -660,7 +660,9 @@ ul.custom-list-style li {
 /* ======= Header ======= */
 .header {
   /*background-color: #f1f1f1; */
-  background: #dfe6dd;
+  /*background: #dfe6dd;*/
+  background:#94B6E5;
+
   padding-top: 1%;
 }
 .header .top-bar {
@@ -674,7 +676,7 @@ ul.custom-list-style li {
 	color:#fff;
 }
 .header .top-bar .menu-top li a:hover {
-	background:#4678A1;
+	background:#6091ba;
 	color:#fff;
 }
 .header .top-bar .menu-top li:last-child a
@@ -807,8 +809,8 @@ ul.custom-list-style li {
 }
 .main-nav .navbar-collapse {
   padding: 0;
-/*background-color:#0c4380 !important;*/
-background-color: #0e6330 !important;
+background-color:#0c4380 !important;
+/*background-color: #0e6330 !important;*/
 }
 .main-nav .nav .nav-item {
   font-weight: 600;
@@ -831,8 +833,7 @@ background-color: #0e6330 !important;
 	border:none;
 }
 .main-nav .nav .nav-item a:hover {
-  /*background: #6091ba;*/
-  background: #209c52;
+  background: #6091ba;
   color: #fff;
 }
 .main-nav .nav .nav-item.active {
@@ -858,7 +859,7 @@ background-color: #0e6330 !important;
 }
 .main-nav .nav .nav-item.open a {
   /*background: #4678a1;*/
-  background: #209c52;
+  background: #0478a9;
   color: #fff;
 }
 .main-nav .nav .nav-item .dropdown-menu {
@@ -981,7 +982,7 @@ background-color: #0e6330 !important;
 .footer .bottom-bar {
   /*background:url(../images/lang-background.jpg);*/
   padding: 5px 0;
-  background: #0e6330;
+  background: #0c4380;
 }
 .footer .bottom-bar .copyright {
   font-size: 11px;
@@ -2330,7 +2331,7 @@ border-bottom-left-radius: 10px;
 	height:70px;
 	width:100%;
 	/*background:#2F506C;*/
-  background: #0e6330;
+  background: #6091ba;
 	margin-bottom:10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -2532,12 +2533,14 @@ box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.75);
 .language{
   margin-top: 6%;
 }
+.language div a{margin-right: 2%;margin-top: 1%;}
 .marquee_div{
   padding: 7px 10px 7px; display: flex;
 }
-.marquee-title{width: 8%;color: white;font-weight: bold;padding: 0.1% 1%;
+.marquee-title{width: 12%;color: white;font-weight: bold;padding: 0.1% 1%;
   /*background: #0c4380;*/
-  background: #0e6330;
+ /* background: #0e6330;*/
+ background-color: #0676d4;
   margin-right: 1%;
 }
 .marquee_div marquee a{
@@ -2609,7 +2612,7 @@ box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.75);
 }
 
 .panel-heading{
-  background-color: #0e6330 !important;
+  background-color: #0c4380 !important;
 }
 
 .dynamic{
@@ -2647,4 +2650,5 @@ box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.75);
     #contact_us input[type="number"], #contact_us input[type="text"], #contact_us input[type="email"] {
         width: 100%;
     }
+    .language div{text-align: center;}
 }

@@ -16,11 +16,11 @@
 				}
 			?>
 			<?php if($lan=='en'){
-                echo 'DADO Bhaktapur - ';
+                echo 'RAD Dipayal - ';
                 if($pageNameEn!=""){ echo $pageNameEn;}else if(isset($_GET['action'])){ echo $_GET['action'];}else{ echo "Home";}
             }
             else{
-                echo 'जिल्ला कृषि बिकास कार्यालय, भक्तपुर - ';
+                echo 'क्षेत्रीय कृषि निर्देशनालय, दिपायल  - ';
             	if($pageName!=""){ echo $pageName;}else if(isset($_GET['action'])){ echo $_GET['action'];}else{ echo "गृहपृष्ठ";}
         	}?>
 		</title>

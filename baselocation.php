@@ -1,1 +1,1 @@
-<base href="http://<?=$_SERVER['HTTP_HOST']?>/dadobhaktapur/" />
+<base href="http://<?=$_SERVER['HTTP_HOST']?>/radodipayal/" />

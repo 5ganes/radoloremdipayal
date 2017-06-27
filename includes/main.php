@@ -60,7 +60,7 @@
             <div class="panel-heading"><h3><?php //if($lan=='en') echo $notice['nameen']; else echo $notice['name'];?><?php if($lan=='en') echo 'Weather Condition'; else echo 'मौसम जानकारी';?></h3></div>
             <div class="panel-body notice-block">
                 <?php //if($lan=='en') echo $notice['shortcontentsen']; else echo $notice['shortcontents'];?>
-                <a href="https://www.accuweather.com/en/np/kathmandu/241809/weather-forecast/241809" class="aw-widget-legal"></a>
+                <a href="http://www.accuweather.com/en/np/dipayal/245416/weather-forecast/245416" class="aw-widget-legal"></a>
                 <div id="awcc1492357026890" class="aw-widget-current"  data-locationkey="241809" data-unit="c" data-language="en-us" data-useip="true" data-uid="awcc1492357026890"></div>
                 <script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
             </div>

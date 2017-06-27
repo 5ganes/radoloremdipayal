@@ -5,7 +5,7 @@ define("ADMIN_LEFT_WIDTH", "20%");
 define("ADMIN_BODY_WIDTH", "80%");
 define("ADMIN_TITLE", "Admin Control Panel");
 define("PAGE_TITLE", "RADO Dipayal");
-define("SITE_URL", "http://localhost/radodipayal/");
+define("SITE_URL", "http://localhost/dadodipayal/");
 
 
 ////////////////IMAGE FOLDER LOCATIONS////////////////////////

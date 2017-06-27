@@ -12,17 +12,17 @@
             <div class="row">
                 <small class="copyright col-md-6 col-sm-12 col-xs-12">
                     <?php if($lan=='en'){?>
-                        Copyright @ <?php echo date('Y'); ?>   District Agriculture Development Office, Bhaktapur | Developed By: <a href="http://www.krishighar.com/" style="color:#fff">Team Krishighar</a>
+                        Copyright @ <?php echo date('Y'); ?>   Regional Agriculture Directorate, Dipayal | Developed By: <a href="http://www.krishighar.com/" style="color:#fff">Team Krishighar</a>
                     <?php }
                     else{?>
-                        सर्वाधिकार @ <?php echo date('Y'); ?>   जिल्ला कृषि बिकास कार्यालय, भक्तपुर | निर्माण तथा परिमार्जन: <a href="http://www.krishighar.com/" style="color:#fff">कृषिघर परिवार</a>
+                        सर्वाधिकार @ <?php echo date('Y'); ?>   जक्षेत्रीय कृषि निर्देशनालय , दिपायल | निर्माण तथा परिमार्जन: <a href="http://www.krishighar.com/" style="color:#fff">कृषिघर परिवार</a>
                     <?php }?>
                 </small>
                 <ul class="social pull-right col-md-6 col-sm-12 col-xs-12">
                     <li>
-                        <a href="https://twitter.com/DoEnv_Nepal?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fdoenv.gov.np%2Fhome" ><i class="fa fa-twitter"></i></a>
+                        <a href="#" ><i class="fa fa-twitter"></i></a>
                     </li>
-                    <li><a href="https://www.facebook.com/doenv/" ><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" ><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#" ><i class="fa fa-youtube"></i></a></li>
                     <!-- <li><a href="#" ><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="#" ><i class="fa fa-google-plus"></i></a></li>

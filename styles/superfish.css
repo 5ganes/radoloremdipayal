@@ -81,12 +81,12 @@ ul.sf-menu li li li.sfHover ul {
 }
 .sf-menu li, .sf-menu li li, .sf-menu li li li {
 	/*background: #0c4380; /* Old browsers */
-	background: #0e6330;
+	background: #0c4380;
 
 }
 .sf-menu li:hover, .sf-menu li.sfHover,
 .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
-	background:		#0478a9;
+	background:		#6091ba;
 	outline:		0;
 	
 }
