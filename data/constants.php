@@ -48,6 +48,8 @@ define('SINGLE_VIDEO', 582);
 define('AUDIO', 'our-audios');
 define('VIDEO', 601);
 define('ABOUT', 338);
+define('SIDEBAR_PHOTO_GALLERY', 766);
+define('STAFFS', 771);
 
 ///////////////GENERAL CLIENT SIDE CONSTANTS///////////////////
 

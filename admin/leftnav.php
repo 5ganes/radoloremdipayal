@@ -19,9 +19,6 @@
             <!-- <li><a href="cms.php?parentId=275&groupType=Other&open">Important Links</a></li> -->
             <li><a href="cms.php?id=176&parentId=0&groupType=Other">Welcome Message</a></li>
             <li><a href="cms.php?id=274&parentId=0&groupType=Other">Message From Chief</a></li>
-            <li>
-              <a href="cms.php?id=<?php echo MSG_FROM_SPOKEPERSON;?>&parentId=0&groupType=Other">Message From Spoke Pserson</a>
-            </li>
             <li><a href="cms.php?id=362&parentId=0&groupType=Other">Information Officer</a></li>
             <li><a href="cms.php?id=581&parentId=0&groupType=Other">Hot News</a></li>
             <!-- li><a href="cms.php?id=367&parentId=0&groupType=Other">Photo Gallery</li> -->

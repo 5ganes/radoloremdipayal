@@ -56,25 +56,18 @@
         
         <!-- weather condtionb starts here -->
         <div class="panel panel-primary">
-            <?php //$notice = $groups->getById(NOTICE); $notice=$conn->fetchArray($notice); ?>
-            <div class="panel-heading"><h3><?php //if($lan=='en') echo $notice['nameen']; else echo $notice['name'];?><?php if($lan=='en') echo 'Weather Condition'; else echo 'मौसम जानकारी';?></h3></div>
+            <div class="panel-heading"><h3><?php if($lan=='en') echo 'Weather Condition'; else echo 'मौसम जानकारी';?></h3></div>
             <div class="panel-body notice-block">
-                <?php //if($lan=='en') echo $notice['shortcontentsen']; else echo $notice['shortcontents'];?>
-                <a href="http://www.accuweather.com/en/np/dipayal/245416/weather-forecast/245416" class="aw-widget-legal"></a>
-                <div id="awcc1492357026890" class="aw-widget-current"  data-locationkey="241809" data-unit="c" data-language="en-us" data-useip="true" data-uid="awcc1492357026890"></div>
-                <script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
+                <a href="http://www.accuweather.com/en/np/dipayal/245416/weather-forecast/245416" class="aw-widget-legal">
+                </a><div id="awcc1500306479617" class="aw-widget-current"  data-locationkey="245416" data-unit="f" data-language="en-us" data-useip="false" data-uid="awcc1500306479617"></div><script type="text/javascript" src="https://oap.accuweather.com/launch.js"></script>
             </div>
-            <!-- <div class="panel-footer">
-                <a href="<?php if($lan=='en') echo 'en/'; echo $notice['urlname'] ?>" class="pull-right">थप [+] <i class="fa fa-chevron-right"></i></a>
-                <div class="clearfix"></div>
-            </div> -->
         </div><!--samachar and suchana ends here-->
 
         <!-- google map starts here -->
         <div class="panel panel-primary">
             <div class="panel-heading"><h3><?php if($lan=='en') echo 'Google Map Location'; else echo 'गूगल म्याप सम्पर्क';?></h3></div>
             <div class="panel-body notice-block">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14134.634562690111!2d85.4168451!3d27.6660312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x968dba734fda2596!2sDistrict+Agriculture+Development+Office%2C+Bhaktapur!5e0!3m2!1sen!2snp!4v1492355836005" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55689.231999491516!2d80.90018698401899!3d29.26538346362741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a3d0fcdfc14145%3A0xb5c9fad7d1e21a8e!2sDipayal+Silgadhi+10800!5e0!3m2!1sen!2snp!4v1500306705563" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div><!--google map ends here-->
 
@@ -152,9 +145,11 @@
         <!--twitter block starts here-->
         <div>
           <!-- <a class="twitter-timeline" data-width="520" data-height="350" data-theme="light" data-link-color="#981CEB" href="https://twitter.com/DoEnv_Nepal">Tweets by DoEnv_Nepal</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fdoenv%2F&tabs=timeline&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          <!-- <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkrishighar%2F&tabs=timeline&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> -->
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fkrishighar%2F&tabs=timeline&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="100%" height="250" style="border:none;overflow:hidden" scrolling="yes" frameborder="0" allowTransparency="true"></iframe>
 
         </div>
+        <br>
         <!--twitter block ends here-->
 
         <!--audio and video block starts here-->

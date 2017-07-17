@@ -22,7 +22,7 @@ function createMenu($parentId, $groupType,$lan, $count=1)
     	</a>
 		<?
 
-		if($groupRow['linkType']=="Normal Group" and $groupRow['urlname']!='video-gallery')
+		if($groupRow['linkType']=="Normal Group" and $groupRow['urlname']!='video-gallery' and $groupRow['id']!=STAFFS)
 			if($count<3)
 				createMenu($groupRow['id'], $groupType, $lan, $count+1);
 

@@ -17,7 +17,11 @@ RewriteRule ^en/photo-gallery index.php?action=photo_gallery&lan=en [L]
 RewriteRule ^en/show-type/important-links index.php?action=show_type&type=Important-Links&lan=en [L]
 RewriteRule ^en/sms-subscription index.php?action=sms_subscription&lan=en [L]
 RewriteRule ^en/([-A-Za-z0-9]+)$ index.php?lan=en&query=$1 [L]
+RewriteRule ^en/staffs index.php?action=staffs&lan=en [L]
 RewriteRule ^en$ index.php?lan=en [L]
+
+#for staffs
+RewriteRule ^staffs index.php?action=staffs [L]
 
 #sms-subscription
 RewriteRule ^sms-subscription index.php?action=sms_subscription [L]

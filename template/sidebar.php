@@ -39,22 +39,6 @@
     
     <div class="panel panel-primary">                             
         <div class="panel-body" style="padding:0 !important; border-bottom: 1px solid #ccc; ">
-            <?php $msg_from_sp = $groups->getById(MSG_FROM_SPOKEPERSON); $msg_from_sp = $conn->fetchArray($msg_from_sp);?>
-            <h4 style="text-align:center;"><?php if($lan=='en') echo $msg_from_sp['nameen']; else echo $msg_from_sp['name'];?></h4>      
-            <p style="text-align: center;">
-                <span style="font-size:16px;">
-                    <img alt="" src="<?php echo CMS_GROUPS_DIR.$msg_from_sp['image'] ?>" style="width: 70%;border-width: 1px; border-style: solid;">
-                </span>
-            </p>
-            <p style="text-align: center;">
-                <?php if($lan=='en') echo $msg_from_sp['shortcontentsen']; else echo $msg_from_sp['shortcontents'];?>...
-            </p>                                                
-            <div class="panel-footer">
-                <a href="<?php if($lan=='en') echo 'en/'; echo $msg_from_sp['urlname'] ?>" class="pull-right">थप [+] <i class="fa fa-chevron-right"></i></a>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-        <div class="panel-body" style="padding:0 !important; border-bottom: 1px solid #ccc; ">
             <?php $msg_from_io = $groups->getById(INFO_OFFICER); $msg_from_io = $conn->fetchArray($msg_from_io);?>
             <h4 style="text-align:center;"><?php if($lan=='en') echo $msg_from_io['nameen']; else echo $msg_from_io['name'];?></h4>      
             <p style="text-align: center;">
@@ -68,6 +52,21 @@
             <div class="panel-footer">
                 <a href="<?php if($lan=='en') echo 'en/'; echo $msg_from_io['urlname'] ?>" class="pull-right">थप [+] <i class="fa fa-chevron-right"></i></a>
                 <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="panel-body" style="padding:0 !important; border-bottom: 1px solid #ccc; ">
+            <div class="galleryslider">
+                <div class="image-slider-wrapper">
+                    <ul id="image_slider">
+                        <?php $img = $groups->getByParentId(SIDEBAR_PHOTO_GALLERY);
+                        while($imgGet = $conn->fetchArray($img)){?>
+                            <li><img src="<?php echo CMS_GROUPS_DIR.$imgGet['image'] ?>"></li>
+                        <?php }?>
+                    </ul>           
+                    <div class="pager">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
